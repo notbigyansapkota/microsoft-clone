@@ -6,11 +6,12 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
     <title>Microsoft – Cloud, Computers, Apps &amp; Gaming</title>
+    <script src="script.js"></script>
 </head>
 <body>
     <div class="navbar flex justify-between items-center p-4">
         <div class="flex justify-center items-center md:order-2">
-            <div class="hamburger inline-block p-4 cursor-pointer md:hidden">
+            <div class="hamburger inline-block p-4 cursor-pointer md:hidden" onclick="addclass()">
                 <div class="h-0.5 w-6 my-1 bg-gray-900"></div>
                 <div class="h-0.5 w-6 my-1 bg-gray-900"></div>
                 <div class="h-0.5 w-6 my-1 bg-gray-900"></div>
@@ -20,7 +21,7 @@
 
         <div class="logo text-center flex md:order-1">
             <div class="p-4"><img class="w-40" src="images/logo.png" alt=""></div>
-            <div class="features absolute w-fit md:static md:w-auto bg-gray-300 md:bg-white inset-0 md:flex md:mx-4 md:space-x-2 -translate-x-96 md:translate-x-0">
+            <div class="features space-x-3 absolute w-fit my-6 md:static md:w-auto bg-gray-300 md:bg-white inset-0 md:flex md:mx-4 md:space-x-2 -translate-x-96 md:translate-x-0">
                 <div class="fitem">Microsoft 365</div>
                 <div class="fitem">Teams</div> 
                 <div class="fitem">Windows</div>
@@ -29,9 +30,13 @@
                 <div class="fitem">Support</div>
             </div>
         </div>
-        <div class="cart text-center md:order-3 flex">
-            <div class="search hidden md:block w-4 mr-6">All Microsoft <img src="images/search.svg" alt=""></div>
-            <div class="flex">cart person</div>
+        <div class="text-center md:order-3 flex my-6">
+            <div class="search hidden md:block -mt-1 mr-3">All Microsoft</div>
+            <img class="hidden md:block w-4 h-4 mx-3" src="images/search.svg" alt="">
+            <div class="flex">
+                <img class="w-4 h-4 mx-3 opacity-70" src="images/cart.png" alt="">
+                <img class="w-5 h-5 mx-3 opacity-50" src="images/user.png" alt="">
+            </div>
         </div>
     </div>
 
