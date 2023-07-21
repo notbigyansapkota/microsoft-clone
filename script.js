@@ -1,3 +1,3 @@
-const addclass = () => {
+const navHandler = () => {
     
 }

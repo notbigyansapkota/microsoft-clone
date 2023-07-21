@@ -11,7 +11,7 @@
 <body>
     <div class="navbar flex justify-between items-center p-4">
         <div class="flex justify-center items-center md:order-2">
-            <div class="hamburger inline-block p-4 cursor-pointer md:hidden" onclick="addclass()">
+            <div id="hamburger" class="inline-block p-4 cursor-pointer md:hidden" onclick="myFunction()">
                 <div class="h-0.5 w-6 my-1 bg-gray-900"></div>
                 <div class="h-0.5 w-6 my-1 bg-gray-900"></div>
                 <div class="h-0.5 w-6 my-1 bg-gray-900"></div>
@@ -46,12 +46,30 @@
             <p class="w-3/4 mx-5 text-center md:text-left">On campus and off, Surface Pro 9 with Windows 11 gives you the tablet flexibility you want, and the laptop performance and battery you need to stay ahead of the class. Offer ends 7/23.</p>
             <button class="text-white bg-black font-bold px-4 py-2 my-6 mx-5">Shop Now ></button>
         </div>
-        <div class="right">
-            <img class="p-1" src="images/image.jpg" alt="">
+        <div class="right relative">
+            <img src="images/image.jpg" alt="">
+            <div class="myDIV">
+                <div class="item m-4">Microsoft 365</div><hr class="bg-gray-400 h-[2px]">
+                <div class="item m-4">Teams</div><hr class="bg-gray-400 h-[2px]">
+                <div class="item m-4">Windows</div><hr class="bg-gray-400 h-[2px]">
+                <div class="item m-4">Surface</div><hr class="bg-gray-400 h-[2px]">
+                <div class="item m-4">Xbox</div><hr class="bg-gray-400 h-[2px]">
+                <div class="item m-4">Deals</div><hr class="bg-gray-400 h-[2px]">
+                <div class="item m-4">Small Business</div><hr class="bg-gray-400 h-[2px]">
+                <div class="item m-4">Support</div><hr class="bg-gray-400 h-[2px]">
+                <div class="item m-4">Software</div><hr class="bg-gray-400 h-[2px]">
+                <div class="item m-4">PCs & Devices</div><hr class="bg-gray-400 h-[2px]">
+                <div class="item m-4">Entertainment</div><hr class="bg-gray-400 h-[2px]">
+                <div class="item m-4">Business</div><hr class="bg-gray-400 h-[2px]">
+                <div class="item m-4">Developer & IT</div><hr class="bg-gray-400 h-[2px]">
+                <div class="item m-4">Other</div><hr class="bg-gray-400 h-[2px]">
+                <div class="item m-4">View Sitemap</div>
+            </div>
         </div>
+
     </div>
 
-    <div class="promo mx-4 md:flex md:justify-between">
+    <div class="mx-4 md:flex md:justify-between">
         <div class="item flex md:flex-col items-center m-4 space-x-3">
             <img src="images/ic1.webp" alt="">
             <span class="font-semibold underline text-blue-600 cursor pointer text-center">Choose your Microsoft 365</span>
